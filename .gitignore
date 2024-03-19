@@ -266,3 +266,5 @@ __pycache__
 results/*
 robotframework/.pabotsuitenames
 robotframework/ouputs/
+coverage_html
+pytest

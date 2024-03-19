@@ -7,7 +7,7 @@
  - Acceptance Testing
  - Robot is a Python framework used for acceptance/functional testing. Robot is an automated test framework which has a simple plain text syntax and can be extended easily with Python or Java libraries. It can run on the .net-based IronPython and on Jython which is Java based.
 
-```python
+```sh
 pip install -r requirements.txt
 robot -d ouputs suites.robot
 ```
@@ -19,7 +19,7 @@ robot -d ouputs suites.robot
  -  End-to-End Testing
  -  Test across all modern browsers. Use in your preferred language. Single API to automate Chromium, Firefox and WebKit. Use the Playwright API in JavaScript & TypeScript, Python, .NET and, Java.
 
-```python
+```sh
 npm install
 npx playwright install
 npx playwright test
