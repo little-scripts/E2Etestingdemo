@@ -1,23 +1,23 @@
-# E2Etestingdemo
+# E2E Testing Demo
 
-## Robot Framework - 8 tests - Elapsed time: 00:12 seconds
+## [![][gh-stars-robotframework]][gh-robotframework] Robot Framework - 8 tests demo - 00:12 seconds
 
  - https://robotframework.org/
  - Python
  - Acceptance Testing
  - Robot is a Python framework used for acceptance/functional testing. 
- - Robot is an automated test framework which has a simple plain text syntax and can be extended easily with Python or Java libraries. 
- - It can run on the .net-based IronPython and on Jython which is Java based.
+ - Robot is an automated test framework which has a simple plain text syntax and can be extended easily with Python or Java libraries.
 
 To run the tests:
 ```sh
 pip install -r requirements.txt
+cd robotframework
 robot -d ouputs suites.robot
 ```
 
-## Playwright - 8 tests - Elapsed time: 00:10 seconds
+## [![][gh-stars-playwright]][gh-playwright] Playwright - 8 tests demo - 00:10 seconds
 
- -  https://playwright.dev
+ -  https://playwright.dev 
  -  Supports multiple languages such as JavaScript, Java, Python, and .NET C#
  -  End-to-End Testing
  -  Test across all modern browsers. 
@@ -27,21 +27,32 @@ robot -d ouputs suites.robot
 
 To run the tests:
 ```sh
+cd playwright
 npm install
 npx playwright install
 npx playwright test
 npx playwright show-report
 ```
 
-## Cypress - 8 tests - Elapsed time: 00:22 seconds
+## [![][gh-stars-cypress]][gh-cypress] Cypress - 8 tests demo - 00:22 seconds
 
- -  https://www.cypress.io/
+ -  https://www.cypress.io/ 
  -  JavaScript, TypeScript
  -  End-to-End Testing
 
 To run the tests:
 
 ```sh
-$ npm install
-$ npx cypress run
+cd cypress
+npm install
+npx cypress run
 ```
+
+
+<!-- -->
+[gh-robotframework]: https://github.com/robotframework/robotframework
+[gh-stars-robotframework]: https://img.shields.io/github/stars/robotframework/robotframework?label=%F0%9F%8C%9F
+[gh-playwright]: https://github.com/microsoft/playwright
+[gh-stars-playwright]: https://img.shields.io/github/stars/microsoft/playwright?label=%F0%9F%8C%9F
+[gh-cypress]: https://github.com/cypress-io/cypress
+[gh-stars-cypress]: https://img.shields.io/github/stars/cypress-io/cypress?label=%F0%9F%8C%9F
