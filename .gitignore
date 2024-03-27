@@ -89,8 +89,11 @@ lerna-debug.log
 .DS_Store
 Thumbs.db
 
-playwright-report
-test-results
+# Playwright and Cypress results
+test-results/
+playwright-report/
+screenshots/
+videos/
 package-lock.json
 
 ############################## PYTHON ##############################
@@ -266,3 +269,4 @@ __pycache__
 results/*
 robotframework/.pabotsuitenames
 robotframework/ouputs/
+pytest/
