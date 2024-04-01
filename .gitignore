@@ -258,7 +258,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# battletestinge2e project
+# E2E Testing Demo project
 .vscode
 __pycache__
 *.log
@@ -269,4 +269,3 @@ __pycache__
 results/*
 robotframework/.pabotsuitenames
 robotframework/ouputs/
-pytest/

@@ -4,10 +4,8 @@
 
  - https://robotframework.org/
  - Python
- - Acceptance Testing
- - Robot is a Python framework used for acceptance/functional testing. 
- - Robot is an automated test framework which has a simple plain text syntax and can be extended easily with Python or Java libraries.
-
+ - Acceptance/functional testing
+ - 
 To run the tests:
 ```sh
 pip install -r requirements.txt
@@ -18,12 +16,8 @@ robot -d ouputs suites.robot
 ## [![][gh-stars-playwright]][gh-playwright] Playwright - 8 tests demo - 00:10 seconds
 
  -  https://playwright.dev 
- -  Supports multiple languages such as JavaScript, Java, Python, and .NET C#
+ -  JavaScript, TypeScript, Java, Python, and .NET C#
  -  End-to-End Testing
- -  Test across all modern browsers. 
- -  Use in your preferred language. 
- -  Single API to automate Chromium, Firefox and WebKit. 
- -  Use the Playwright API in JavaScript & TypeScript, Python, .NET and, Java.
 
 To run the tests:
 ```sh
@@ -49,6 +43,19 @@ npx cypress run
 ```
 
 
+## [![][gh-stars-pytest]][gh-pytest] Pytest - 8 tests demo - 00:19 seconds
+
+ -  https://docs.pytest.org/ 
+ -  Python 
+ -  pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries
+
+To run the tests:
+
+```sh
+coverage run -m pytest -v --strict-markers --headless
+```
+
+
 <!-- -->
 [gh-robotframework]: https://github.com/robotframework/robotframework
 [gh-stars-robotframework]: https://img.shields.io/github/stars/robotframework/robotframework?label=%F0%9F%8C%9F
@@ -56,3 +63,6 @@ npx cypress run
 [gh-stars-playwright]: https://img.shields.io/github/stars/microsoft/playwright?label=%F0%9F%8C%9F
 [gh-cypress]: https://github.com/cypress-io/cypress
 [gh-stars-cypress]: https://img.shields.io/github/stars/cypress-io/cypress?label=%F0%9F%8C%9F
+[gh-pytest]: https://github.com/pytest-dev/pytest
+[gh-stars-pytest]: https://img.shields.io/github/stars/pytest-dev/pytest?label=%F0%9F%8C%9F
+
