@@ -1,11 +1,10 @@
-# E2E Testing Demo
+# End-to-End Testing Demo
 
 ## [![][gh-stars-robotframework]][gh-robotframework] Robot Framework - 8 tests demo - 00:12 seconds
 
  - https://robotframework.org/
  - Python
- - Acceptance/functional testing
- - 
+
 To run the tests:
 ```sh
 pip install -r requirements.txt
@@ -17,7 +16,6 @@ robot -d ouputs suites.robot
 
  -  https://playwright.dev 
  -  JavaScript, TypeScript, Java, Python, and .NET C#
- -  End-to-End Testing
 
 To run the tests:
 ```sh
@@ -32,7 +30,6 @@ npx playwright show-report
 
  -  https://www.cypress.io/ 
  -  JavaScript, TypeScript
- -  End-to-End Testing
 
 To run the tests:
 
@@ -47,8 +44,7 @@ npx cypress run
 
  -  https://docs.pytest.org/ 
  -  Python 
- -  pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries
-
+ - 
 To run the tests:
 
 ```sh
